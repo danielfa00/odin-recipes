@@ -1,0 +1,44 @@
+.content {
+    margin-left: 200px;
+    max-width: 1150px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    background-color: beige;
+    text-align: center; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.heading h1 {
+    font-variant: small-caps;
+}
+.heading p {
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
+.ind {
+    background-color: lightblue;
+    padding-bottom: 5px;
+}
+.ind p {
+    font-size: 20px;
+    color: green;
+    font-size: bold;
+    padding-left: 4px;
+}
+
+.ind a {
+    font-size: 25px;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: black;
+}
+
+.rand {
+    font-size: 20px
+}
+
