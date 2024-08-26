@@ -2,6 +2,8 @@
     margin-left: 200px;
     max-width: 1150px;
     font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .heading {
@@ -41,4 +43,46 @@
 .rand {
     font-size: 20px
 }
+
+.heading.recipe {
+    background-color: azure;
+    padding-left: 4px;
+}
+
+.heading.recipe p {
+    text-align: left;
+    font-style: normal;
+}
+
+.heading.recipe .date {
+    text-align: right;
+    font-size: 15px;
+}
+
+.ingredients {
+    background-color: blanchedalmond;
+    padding: 5px
+}
+
+.ingredients h2 {
+    text-align: center;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.ingredients li {
+    font-size: 15px;
+}
+
+.text {
+    font-family: garamond;
+}
+.text h3 {
+    font-size: 55px;
+}
+.text p {
+    font-size: 30px;
+    
+}
+
 
