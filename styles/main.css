@@ -57,13 +57,14 @@ body {
 }
 
 .rand {
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 40px;
 
 }
 
 .heading.recipe {
-    background-color: azure;
-    padding-left: 4px;
+    padding-left: 10px;
+    border-style: double;
 }
 
 .heading.recipe p {
@@ -78,7 +79,11 @@ body {
 
 .ingredients {
     background-color: blanchedalmond;
-    padding: 5px
+    padding: 5px;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    top: -100px
 }
 
 .ingredients h2 {
@@ -95,11 +100,54 @@ body {
     font-family: garamond;
 }
 .text h3 {
-    font-size: 55px;
+    font-size: 30px;
 }
 .text p {
-    font-size: 30px;
+    font-size: 25px;
     
 }
 
+.omelette img {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
 
+table {
+    border: solid black;
+    border-color: red;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+th, td {
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.onion img {
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+.about {
+    font-weight: bold;
+}
+
+button {
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.in-button {
+    text-decoration: none;
+}
+
+.onion button {
+    margin-top: 10px;
+}
